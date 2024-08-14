@@ -1,8 +1,8 @@
 # Projeto de Previsão de Estoque
 
-### Temas disponíveis: 01 - Ruptura de Estoque (Previsão de Demanda) /OU/ 02 - Análise Preditiva do Mercado de Ações
-## Tema Escolhido: Previsão de Demanda
-Nesse projeto, usaremos tecnologias de regressão [especificar tipo de regressão, como regressão linear ou logística] para fazer a análise de ruptura dos dados de um estoque [x].
+### Tema: Ruptura de Estoque (Previsão de Demanda) 
+
+Nesse projeto, usaremos tecnologias de regressão para fazer a análise de ruptura dos dados do estoque de um hipermercado do Equador.
 
 ## Autores
 
@@ -27,47 +27,25 @@ Nesse projeto, usaremos tecnologias de regressão [especificar tipo de regressã
 - Escolha do modelo.
 
 ### Construção e Validação do Modelo. 
-- **Escolha do Modelo:**
-  - Regressão Linear (simples ou múltipla).
-  - Regressão Logística (binária ou múltipla).
+- **Modelos Utilizados:**
+  - Regressão Linear
+  - ARIMA
+  - Suavização Exponencial
+  - Tweedie Regressor
 - **Construção do Modelo:**
   - Definição das variáveis independentes e dependentes. (features e target)
-  - Implementação do modelo.
+  - Implementaçãos do modelos.
 - **Validação do Modelo:**
   - Divisão dos dados em conjunto de treino e teste. 
-  - Avaliação do desempenho do modelo (acuracia).
+  - Avaliação do desempenho do modelo (acuracia/metricas de erro).
 
 ### Aplicação do Modelo + Aplicação Gráfica
-- Implementação do modelo em um ambiente de produção. 
-- Desenvolvimento de dashboards ou relatórios para visualização dos resultados.
+- Implementação de cada modelo em um ambiente de produção. 
+- Desenvolvimento de dashboards ou relatórios para visualização dos resultados de cada um.
 
 ### Análise de Resultados 
-- Interpretação dos resultados obtidos. 
-- Comparação com objetivos do negócio.
-- Sugestões de melhorias.
-
-## Observações
-
-- Matriz de Confusão
-- as métricas (estatísticas) antes dos gráficos na analise exploratória (plotar a media móvel tbm)
-- verificar linearidade no caso de regressão linear
-- analise exploratória numérica, depois a gráfica 
-	- ainda na exploratória plotar normalidade
-- diferença ACF e PACF
-- as premissas do modelo são analise preditiva tbm
-- diferença autoarima e arima
-- color palette (todo coloridinho)
-- chatgpt pode sugerir modelos no lugar do lazy predict (que não funcionou antes)
-
-## Funcionalidades Adicionais
-
-- Chat de Linguagem Natural
-- Integração com WhatsApp* (Telegram)
-
-## Referências 
-
-- ()[]
+- [em andamento]
 
 ### Datasets
 
-- (Dataset Corporacion Favorit)[]
+- (Dataset Corporacion Favorit)[https://www.kaggle.com/c/favorita-grocery-sales-forecasting]
